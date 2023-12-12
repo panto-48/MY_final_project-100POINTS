@@ -1,14 +1,28 @@
 # import database module
+import csv
+"""import persons from database"""
+csv_file = 'c:/Users/USER/KUWORK/Final_Project/persons.csv'
+with open(csv_file, 'r') as file:
+    csvread = csv.reader(file)
+    skiphead = next(csvread)
 
 # define a funcion called initializing
 
-def initializing():
-    pass
+def initializing(self,ID,first,last,type):
+    self.ID = ID
+    self.first = first
+    self.last = last
+    self.type = type
 
 # here are things to do in this function:
 
     # create an object to read all csv files that will serve as a persistent state for this program
+person_data = []
+for row in csvread :
+    person_data.append(row)
 
+
+print(person_data)
     # create all the corresponding tables for those csv files
 
     # see the guide how many tables are needed
@@ -39,8 +53,9 @@ def exit():
 
 # make calls to the initializing and login functions defined above
 
-initializing()
-val = login()
+# TODO
+# initializing()
+# val = login()
 
 # based on the return value for login, activate the code that performs activities according to the role defined for that person_id
 

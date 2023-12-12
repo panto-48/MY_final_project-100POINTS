@@ -2,6 +2,23 @@
 
 import csv, os
 
+file = open("c:/Users/USER/KUWORK/Final_Project/persons.csv")
+
+type(file)
+
+csvreader = csv.reader(file)
+
+header = []
+header = next(csvreader)
+header
+
+rows = []
+for row in csvreader:
+    rows.append(row)
+rows
+
+file.close()
+
 __location__ = os.path.realpath(
     os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
@@ -13,6 +30,10 @@ with open(os.path.join(__location__, 'persons.csv')) as f:
 print(persons)
 
 # add in code for a Database class
+# class Database :
+#     def __init__(self,persons_data):
+#         self.persons_data = persons_data
+
 
 # add in code for a Table class
 
