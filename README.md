@@ -1,8 +1,8 @@
 # Final project for 2023's 219114/115 Programming I
-<br>*1. A list of files in your final project repo together with a brief description describing what classes each of the files contains and what purposes do these classes serve.
-<br>  README.md
-<br>    - Description to explain how my project how my code work
-<br>  Proposal.md
+##*1. A list of files in your final project repo together with a brief description describing what classes each of the files contains and what purposes do these classes serve.
+# README.md
+- Description to explain how my project how my code work
+#Proposal.md
 <br>    - Use to briefly plan how to do the Evaluate Step in very start of work(contain only the sentence not the code)
 <br>  TODO.md
 <br>    - Use to plan What each Role need to do and which class , function are require
