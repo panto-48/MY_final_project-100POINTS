@@ -21,7 +21,7 @@
   
 ### 2. A description on how to compile and run your project.
   
-  - Step to run my project
+  - Step to compile and run my project
 <br>0. Fork and push this repo
 <br>1. Compile and run the project_manage.py
 <br>2. answer the Username and password (You can see in login.csv)
@@ -29,7 +29,7 @@
 <br>4. Answer the "Do_you_enough" question (y/n)
   > message : "because I missed 'the Exit function' so in order for me to test the task relate with project or request I need to use while-statement for help that why the 4-Step was created"
 
-### 3. A table detailing each role and its actions, specifying the relevant methods and classes, and indicating the completion percentage of your code for a particular action in a given role. See an example table in the attached file; your table will have much more rows than this.
+### 3. A table detailing each role and its actions, specifying the relevant methods and classes, and indicating the completion percentage of your code for a particular action in a given role. See an example table in the attached file.
 | Role     | Action | Method     | Class | Completion Percentage |
 |----------|--------|------------|-------|-----------| 
 | admin     | see all the tables  | *(Regular access) with Project_list |- | 65%|
