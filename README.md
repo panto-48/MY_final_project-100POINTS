@@ -34,4 +34,5 @@
   - Sorry I don't know how to append the table to md file so I will add it in repo instead 
 
 ## 4. missing features and outstanding bugs
-  
+  - The Exit function to sent python file to be CSV
+  - and for buck I doesn't found yet but I think It has somewhere
